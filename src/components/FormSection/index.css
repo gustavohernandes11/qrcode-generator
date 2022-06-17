@@ -25,3 +25,12 @@
 .formsection-button:hover {
     cursor: pointer;
 }
+
+@media (max-width: 600px){
+    .formsection {
+        min-width: 0;
+        width: fit-content;
+        margin: 0px 10px;
+    }
+
+  }
