@@ -1,0 +1,14 @@
+.content {
+    margin: 10px;
+    min-width: 500px;
+    min-height: 300px;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: var(--main-dark-color);
+    color: var(--main-white-color);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}

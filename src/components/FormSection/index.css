@@ -1,0 +1,28 @@
+.formsection {
+    min-width: 500px;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: var(--main-dark-color);
+    display: flex;
+    color: var(--main-white-color);
+
+}
+.formsection-input, .formsection-button {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: var(--main-dark-color);
+}
+.formsection-input {
+    flex: 4;
+    color: var(--main-white-color);
+}
+.formsection-button {
+    margin-left: 10px;
+    flex: 1;
+    background-color: var(--main-blue-color);
+    color: var(--main-white-color);
+}
+.formsection-button:hover {
+    cursor: pointer;
+}
