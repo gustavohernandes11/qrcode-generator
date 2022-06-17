@@ -1,8 +1,9 @@
 .heading {
     min-width: 350px;
-    font-size: medium;
+    font-size: large;
     padding: 10px;
     color:rgb(211, 211, 211);
+    margin-top: auto;
 }
 .heading b {
     color: rgb(96, 96, 209);
