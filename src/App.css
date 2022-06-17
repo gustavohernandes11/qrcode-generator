@@ -4,7 +4,7 @@
   --main-white-color: rgb(243, 243, 243);
   --main-blue-color: #0778f8;
 }
-.App, html, body {
+.App, html, body, #root {
   background-color: var(--main-bg-color);
   color: var(--main-white-color);
   

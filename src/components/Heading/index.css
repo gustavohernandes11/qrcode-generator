@@ -1,7 +1,9 @@
 .heading {
-    min-width: 500px;
+    min-width: 350px;
     font-size: medium;
     padding: 10px;
     color:rgb(211, 211, 211);
-
+}
+.heading b {
+    color: rgb(96, 96, 209);
 }

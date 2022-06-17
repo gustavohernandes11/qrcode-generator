@@ -3,10 +3,9 @@ import './index.css'
 
 function Heading() {
     return (
-        <>
-              <title>qr-code generator</title>
+        <>              
             <h1 className='heading'>
-                qr-code generator
+                Gerador de <b>QR-Code</b>
             </h1>
         </>
     );

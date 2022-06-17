@@ -1,4 +1,5 @@
 .footer {
+    color: rgba(255, 255, 255, 0.493);
     font-size: small;
-
+    justify-self: baseline;
 }

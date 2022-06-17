@@ -1,11 +1,10 @@
 .formsection {
-    min-width: 500px;
+    min-width: 350px;
     border-radius: 5px;
     padding: 5px;
     background-color: var(--main-dark-color);
     display: flex;
-    color: var(--main-white-color);
-
+    color:rgb(211, 211, 211);
 }
 .formsection-input, .formsection-button {
     padding: 10px;
