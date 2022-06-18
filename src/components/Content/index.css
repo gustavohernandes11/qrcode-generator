@@ -4,13 +4,17 @@
   min-height: 300px;
   border-radius: 5px;
   padding: 10px 5px;
-  background-color: var(--main-dark-color);
-  color: var(--main-white-color);
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.103);
+  background-color: inherit;
 
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+}
+* > .content {
+  color: inherit;
+
 }
 
 .content figure {

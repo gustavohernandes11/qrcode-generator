@@ -2,19 +2,19 @@
     min-width: 350px;
     border-radius: 5px;
     padding: 5px;
-    background-color: var(--main-dark-color);
     display: flex;
     color:rgb(211, 211, 211);
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.103);
 }
 .formsection-input, .formsection-button {
     padding: 10px;
     border-radius: 5px;
     border: none;
-    background-color: var(--main-dark-color);
+    background-color: inherit;
 }
 .formsection-input {
     flex: 4;
-    color: var(--main-white-color);
+
 }
 .formsection-button {
     margin-left: 10px;
