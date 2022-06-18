@@ -1,5 +1,6 @@
 # Gerador de QRCODE 
-![QRcodeImageSmall](https://user-images.githubusercontent.com/66632840/174356492-77de2a21-6609-488a-b748-6819715a20a3.png)
+![QRcodeImage](https://user-images.githubusercontent.com/66632840/174457401-3ee33b77-3a9d-4146-8c6e-ed9ace0f5f72.png)
+
 ## Sobre o projeto 
  Criado com create-react-app, consisite em uma SPA com um heading, um formuário, um componente de conteúdo principal e um footer. Ao preencher o campo e clicar no botão 'gerar', uma imagem é gerada abaixo apresentando o QRCODE e o texto informado.
  
