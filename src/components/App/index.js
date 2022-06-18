@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
-import './App.css';
-import Heading from './components/Heading'
-import FormSection from './components/FormSection'
-import Content from './components/Content'
-import Footer from './components/Footer'
+import './index.css';
+import Heading from '../Heading'
+import FormSection from '../FormSection'
+import Content from '../Content'
+import Footer from '../Footer'
 
 function App() {
   const [inputValue, setInputValue] = useState()
@@ -12,7 +12,6 @@ function App() {
   function handleClick() {
     const input = document.getElementById('main-input')
     setInputValue(input.value)
-    console.log(input)
   }
 
   return (

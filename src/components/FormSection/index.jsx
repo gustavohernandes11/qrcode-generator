@@ -1,20 +1,28 @@
 import React from 'react';
 import './index.css'
 
-function FormSection({ onClick }) {
-    return (
-        <form className='formsection'>
 
+function FormSection({ onClick }) {
+
+    const handleClick = (e) => {
+        e.preventDefault()
+        onClick()
+    }
+
+    return (
+        <form  className='formsection'>
             <input className='formsection-input'
                 type="text"
                 id="main-input"
                 placeholder="Digite um valor..."
             />
 
-            <input onClick={onClick}
+            <input onClick={(e) => handleClick(e)}
                 className='formsection-button'
-                type="button" name="main-button"
+                type="button"
+                name="main-button"
                 value="Gerar"
+
             />
 
         </form>
