@@ -23,6 +23,7 @@ function FormSection({ onClick }) {
                 type="text"
                 id="main-input"
                 placeholder="Digite um valor..."
+                style={{ color: theme === 'light' ? '#131313' : '#f0f0f0' }}
             />
 
             <input onClick={(e) => handleClick(e)}
