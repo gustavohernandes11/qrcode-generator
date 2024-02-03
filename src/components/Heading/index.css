@@ -1,0 +1,34 @@
+.heading {
+    min-width: 350px;
+    font-size: small;
+    padding: 10px;
+    color: rgb(211, 211, 211);
+    margin-top: auto;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.heading b {
+    color: rgb(96, 96, 209);
+}
+
+.theme-button {
+    background: none;
+    font-size: small;
+    border: none;
+    color: inherit;
+    font-family: inherit;
+    margin-left: auto;
+}
+
+.theme-button:hover {
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    .heading {
+        min-width: 0;
+        flex-direction: column-reverse;
+    }
+}

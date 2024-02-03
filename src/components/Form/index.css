@@ -1,0 +1,36 @@
+.formsection {
+    min-width: 350px;
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    color:rgb(211, 211, 211);
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.103);
+}
+.formsection-input, .formsection-button {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: inherit;
+}
+.formsection-input {
+    flex: 4;
+
+}
+.formsection-button {
+    margin-left: 10px;
+    flex: 1;
+    background-color: var(--main-blue-color);
+    color: var(--main-white-color);
+}
+.formsection-button:hover {
+    cursor: pointer;
+}
+
+@media (max-width: 600px){
+    .formsection {
+        min-width: 0;
+        width: fit-content;
+        margin: 0px 10px;
+    }
+
+  }
